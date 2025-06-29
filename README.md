@@ -17,5 +17,5 @@ export GOOGLE_API_KEY="your-api-key"
 ## Install
 
 ```bash
-go install https://github.com/bhrott/cligpt
+go install github.com/bhrott/cligpt@latest
 ```
