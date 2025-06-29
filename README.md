@@ -17,5 +17,11 @@ export GOOGLE_API_KEY="your-api-key"
 ## Install
 
 ```bash
-go install github.com/bhrott/cligpt@latest
+go install github.com/bhrott/cligpt@0.0.2
+```
+
+## Usage
+
+```bash
+cligpt list all docker container images
 ```
