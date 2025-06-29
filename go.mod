@@ -2,17 +2,19 @@ module github.com/bhrott/cligpt
 
 go 1.24.2
 
-require google.golang.org/genai v1.13.0
+require (
+	github.com/fatih/color v1.18.0
+	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+	google.golang.org/genai v1.13.0
+)
 
 require (
 	cloud.google.com/go v0.116.0 // indirect
 	cloud.google.com/go/auth v0.9.3 // indirect
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
-	github.com/fatih/color v1.18.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
-	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.4 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
