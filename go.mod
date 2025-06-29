@@ -1,4 +1,4 @@
-module cligpt
+module github.com/bhrott/cligpt
 
 go 1.24.2
 
